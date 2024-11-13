@@ -37,9 +37,9 @@ const Transactions = () => {
         setTransOthers(true);
     };
 
-    const url = `https://slim-new-site-back-end.vercel.app/api/getalldeposit/${id}`
-    const url2 = `https://slim-new-site-back-end.vercel.app/api/getallwithdrawal/${id}`
-    const url3 = `https://slim-new-site-back-end.vercel.app/api/getalltransactions/${id}`
+    const url = `https://keec-new-site-back-end.vercel.app/api/getalldeposit/${id}`
+    const url2 = `https://keec-new-site-back-end.vercel.app/api/getallwithdrawal/${id}`
+    const url3 = `https://keec-new-site-back-end.vercel.app/api/getalltransactions/${id}`
 
     const getAllDeposit = ()=>{
            axios.get(url)
