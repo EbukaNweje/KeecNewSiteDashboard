@@ -107,7 +107,7 @@ const Dashboard = () => {
 
     const handleLogOut = () => {
         localStorage.removeItem("UserId");
-        window.location.href = "https://tradebitpay.vercel.app/";
+        window.location.href = "https://bitpay-trade.vercel.app/";
     };
     const handleAdmin = () => {
         window.location.href = "https://www.whitebitcrypfield.org/#/admin";
